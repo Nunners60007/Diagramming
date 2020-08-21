@@ -84,9 +84,9 @@ public class UserInterface {
     	    }
     	    myReader.close();
     	}catch (FileNotFoundException e) {
-    	    showMessage(NO_FILE_MESSAGE);
+    	    //showMessage(NO_FILE_MESSAGE);
     	}catch (NoSuchElementException nsee) {
-    		showMessage(EMPTY_FILE_MESSAGE);
+    		//showMessage(EMPTY_FILE_MESSAGE);
     	}catch (Exception e){
     		showMessage("Random Exception "+e.getMessage());
     	}

@@ -42,10 +42,6 @@ public class SimpleService {
 	public static final String ORIGIN_KEY = "origin";
 	
 	
-	
-	
-	//private LocalDate splitRunDate;
-	
 	/**
 	 * 
 	 */
